@@ -37,12 +37,17 @@ desktop launcher, SVG icon, and compiled gettext catalogs. Python code is
 installed as source; the `.deb` packages it rather than compiling it to native
 machine code.
 
-To install the local package on Debian 13 or Linux Mint, use APT so it can
-resolve the dependencies declared in `debian/control`:
+To install the local package on Debian 13 (including KDE Plasma) or Linux Mint,
+build it first, then use APT so it can resolve the dependencies declared in
+`debian/control`:
 
 ```sh
-sudo apt install ./build/systemd-resolved-gui_0.1.0-1_amd64.deb
+make build-deb
+sudo apt install ./build/systemd-resolved-gui_0.1.1-1_amd64.deb
 ```
+
+Saving and restoring use `pkexec`; KDE Plasma's PolicyKit authentication agent
+must be active in the desktop session to show the authorization prompt.
 
 The maintainer identity in `debian/control` and `debian/changelog` is a local
 placeholder and should be replaced before publishing the package.

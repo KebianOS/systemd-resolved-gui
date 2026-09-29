@@ -1,5 +1,5 @@
-systemd-resolved-gui (0.1.0-1) unstable; urgency=medium
+systemd-resolved-gui (0.1.1-1) trixie; urgency=medium
 
-  * Initial packaged version.
+  * Drop the unavailable policykit-1 dependency on Debian 13.
 
  -- Local package <danny@localhost>  Tue, 29 Sep 2026 12:00:00 +0000
