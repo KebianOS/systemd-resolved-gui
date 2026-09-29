@@ -1,0 +1,11 @@
+Package: systemd-resolved-gui
+Version: 0.1.0-1
+Section: admin
+Priority: optional
+Architecture: all
+Maintainer: Local package <danny@localhost>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, policykit-1, pkexec, systemd-resolved, coreutils
+Description: GTK editor for systemd-resolved configuration
+ A small graphical editor for the systemd-resolved configuration file.
+ It keeps an initial restore point and requests administrator authorization
+ only when saving or restoring the system configuration.

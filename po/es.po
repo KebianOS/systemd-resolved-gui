@@ -1,0 +1,187 @@
+# Spanish translations for systemd-resolved-gui.
+# Translation catalog for systemd-resolved-gui.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: systemd-resolved-gui 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-29 15:22-0500\n"
+"PO-Revision-Date: 2026-09-29 14:04-0500\n"
+"Last-Translator: Project contributors\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/systemd_resolved_gui/app.py:37 src/systemd_resolved_gui/app.py:270
+msgid "systemd-resolved Editor"
+msgstr "Editor de systemd-resolved"
+
+#: src/systemd_resolved_gui/app.py:68
+#, python-format
+msgid "Could not create the restore point; Save and Restore are disabled: %s"
+msgstr ""
+"No se pudo crear el punto de restauración; Guardar y Restablecer están "
+"desactivados: %s"
+
+#: src/systemd_resolved_gui/app.py:112
+msgid "Reload"
+msgstr "Recargar"
+
+#: src/systemd_resolved_gui/app.py:116 src/systemd_resolved_gui/app.py:341
+msgid "Save"
+msgstr "Guardar"
+
+#: src/systemd_resolved_gui/app.py:120
+msgid "Restore original"
+msgstr "Restablecer original"
+
+#: src/systemd_resolved_gui/app.py:196
+msgid "The restore point metadata is invalid."
+msgstr "Los metadatos del punto de restauración no son válidos."
+
+#: src/systemd_resolved_gui/app.py:198
+msgid "The original snapshot file is missing."
+msgstr "Falta el archivo de la copia original."
+
+#: src/systemd_resolved_gui/app.py:204
+#, python-format
+msgid "An incomplete restore point exists at %s; refusing to overwrite it."
+msgstr "Hay un punto de restauración incompleto en %s; no se sobrescribirá."
+
+#: src/systemd_resolved_gui/app.py:209
+#, python-format
+msgid "%s is a symbolic link; editing stopped for safety."
+msgstr "%s es un enlace simbólico; se detuvo la edición por seguridad."
+
+#: src/systemd_resolved_gui/app.py:247
+msgid "The configuration file is a symbolic link."
+msgstr "El archivo de configuración es un enlace simbólico."
+
+#: src/systemd_resolved_gui/app.py:251
+msgid "Configuration loaded."
+msgstr "Configuración cargada."
+
+#: src/systemd_resolved_gui/app.py:255
+msgid "The configuration file does not exist; showing a template."
+msgstr "El archivo de configuración no existe; se muestra una plantilla."
+
+#: src/systemd_resolved_gui/app.py:258
+#, python-format
+msgid "Could not read the configuration: %s"
+msgstr "No se pudo leer la configuración: %s"
+
+#: src/systemd_resolved_gui/app.py:276
+msgid "There are unsaved changes."
+msgstr "Hay cambios sin guardar."
+
+#: src/systemd_resolved_gui/app.py:287
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/systemd_resolved_gui/app.py:297
+msgid "There are unsaved changes"
+msgstr "Hay cambios sin guardar"
+
+#: src/systemd_resolved_gui/app.py:298
+msgid "Continuing will discard the edits in this window."
+msgstr "Si continúas, se descartarán los cambios de esta ventana."
+
+#: src/systemd_resolved_gui/app.py:299
+msgid "Discard changes"
+msgstr "Descartar cambios"
+
+#: src/systemd_resolved_gui/app.py:305
+msgid "pkexec was not found on this system."
+msgstr "No se encontró pkexec en este sistema."
+
+#: src/systemd_resolved_gui/app.py:316
+msgid "The operation was cancelled or denied."
+msgstr "La operación se canceló o fue denegada."
+
+#: src/systemd_resolved_gui/app.py:322
+msgid "The systemctl utility was not found."
+msgstr "No se encontró la utilidad systemctl."
+
+#: src/systemd_resolved_gui/app.py:333
+msgid "Cannot save: the original restore point is unavailable."
+msgstr ""
+"No se puede guardar: el punto de restauración original no está disponible."
+
+#: src/systemd_resolved_gui/app.py:336
+msgid "Save the system configuration"
+msgstr "Guardar la configuración del sistema"
+
+#: src/systemd_resolved_gui/app.py:338
+#, python-format
+msgid ""
+"This will replace %s. The initial state will be kept so you can restore it."
+msgstr ""
+"Se reemplazará %s. Se conservará el estado inicial para que puedas "
+"restablecerlo."
+
+#: src/systemd_resolved_gui/app.py:357 src/systemd_resolved_gui/app.py:413
+msgid "The install utility was not found."
+msgstr "No se encontró la utilidad install."
+
+#: src/systemd_resolved_gui/app.py:377
+#, python-format
+msgid "Configuration saved, but systemd-resolved could not be restarted: %s"
+msgstr "Se guardó la configuración, pero no se pudo reiniciar systemd-resolved: %s"
+
+#: src/systemd_resolved_gui/app.py:383
+msgid "Configuration saved and systemd-resolved restarted."
+msgstr "Se guardó la configuración y se reinició systemd-resolved."
+
+#: src/systemd_resolved_gui/app.py:386
+#, python-format
+msgid "Could not save: %s"
+msgstr "No se pudo guardar: %s"
+
+#: src/systemd_resolved_gui/app.py:396
+msgid "There is no original restore point."
+msgstr "No hay un punto de restauración original."
+
+#: src/systemd_resolved_gui/app.py:399
+msgid "Restore the original file"
+msgstr "Restablecer el archivo original"
+
+#: src/systemd_resolved_gui/app.py:401
+msgid ""
+"Unsaved edits will be discarded and the state captured when this editor was "
+"first opened will be restored."
+msgstr ""
+"Se descartarán los cambios sin guardar y se restaurará el estado capturado "
+"la primera vez que se abrió este editor."
+
+#: src/systemd_resolved_gui/app.py:404
+msgid "Restore"
+msgstr "Restablecer"
+
+#: src/systemd_resolved_gui/app.py:428
+msgid "The rm utility was not found."
+msgstr "No se encontró la utilidad rm."
+
+#: src/systemd_resolved_gui/app.py:437
+#, python-format
+msgid ""
+"Original state restored, but systemd-resolved could not be restarted: %s"
+msgstr "Se restableció el estado original, pero no se pudo reiniciar systemd-resolved: %s"
+
+#: src/systemd_resolved_gui/app.py:443
+msgid "Original state restored and systemd-resolved restarted."
+msgstr "Se restableció el estado original y se reinició systemd-resolved."
+
+#: src/systemd_resolved_gui/app.py:446
+#, python-format
+msgid "Could not restore: %s"
+msgstr "No se pudo restablecer: %s"
+
+#, python-format
+#~ msgid "Saved successfully to %s."
+#~ msgstr "Se guardó correctamente en %s."
+
+#~ msgid "The original state was restored."
+#~ msgstr "Se restableció el estado original."

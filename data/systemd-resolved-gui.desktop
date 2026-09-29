@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=systemd-resolved Editor
+Name[es]=Editor de systemd-resolved
+Name[fr]=Éditeur de systemd-resolved
+Comment=Edit the systemd-resolved configuration
+Comment[es]=Edita la configuración de systemd-resolved
+Comment[fr]=Modifier la configuration de systemd-resolved
+Exec=systemd-resolved-gui
+Icon=systemd-resolved-gui
+Terminal=false
+Categories=Settings;System;
+StartupNotify=true
+Keywords=DNS;systemd;network;resolver;

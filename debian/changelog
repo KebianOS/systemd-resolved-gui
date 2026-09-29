@@ -1,0 +1,5 @@
+systemd-resolved-gui (0.1.0-1) unstable; urgency=medium
+
+  * Initial packaged version.
+
+ -- Local package <danny@localhost>  Tue, 29 Sep 2026 12:00:00 +0000
