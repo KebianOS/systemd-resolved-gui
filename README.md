@@ -5,6 +5,16 @@ the configuration as the current user and requests administrator authorization
 only when saving or restoring it. The first launch records one restore point in
 `~/.local/state/systemd-resolved-editor/`.
 
+
+
+## Install using a .deb package
+
+To install this application using a .deb package, you must download it from the Releases section or (https://github.com/KebianOS/systemd-resolved-gui/releases/download/beta/systemd-resolved-gui_0.1.1-1_amd64.deb)[click here] to download the latest version.
+
+### Preview in Cinnamon environment
+
+![](media/cap.png)
+
 ## Run from the source tree
 
 Requirements: Python 3, PyGObject with GTK 3, GNU gettext, and `pkexec` for
