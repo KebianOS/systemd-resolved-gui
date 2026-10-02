@@ -11,7 +11,7 @@ only when saving or restoring it. The first launch records one restore point in
 
 To install this application using a .deb package, you must download it from the Releases section or [click here](https://github.com/KebianOS/systemd-resolved-gui/releases/download/beta/systemd-resolved-gui_0.1.1-1_amd64.deb) to download the latest version.
 
-### Preview in Cinnamon environment
+### Preview in `Cinnamon environment`
 
 ![](media/cap.png)
 
